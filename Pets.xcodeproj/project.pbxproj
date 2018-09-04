@@ -12,7 +12,6 @@
 		F1732A96213EF7A700EB8CF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1732A95213EF7A700EB8CF8 /* Assets.xcassets */; };
 		F1732A99213EF7A700EB8CF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1732A97213EF7A700EB8CF8 /* LaunchScreen.storyboard */; };
 		F1732AA5213EFA4800EB8CF8 /* PetsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1732AA4213EFA4800EB8CF8 /* PetsTableViewController.swift */; };
-		F1732AA7213EFA6600EB8CF8 /* Pets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1732AA6213EFA6600EB8CF8 /* Pets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +22,6 @@
 		F1732A98213EF7A700EB8CF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1732A9A213EF7A700EB8CF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1732AA4213EFA4800EB8CF8 /* PetsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsTableViewController.swift; sourceTree = "<group>"; };
-		F1732AA6213EFA6600EB8CF8 /* Pets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +92,6 @@
 		F1732AA3213EF7F400EB8CF8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F1732AA6213EFA6600EB8CF8 /* Pets.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -172,7 +169,6 @@
 			files = (
 				F1732A8F213EF7A600EB8CF8 /* AppDelegate.swift in Sources */,
 				F1732AA5213EFA4800EB8CF8 /* PetsTableViewController.swift in Sources */,
-				F1732AA7213EFA6600EB8CF8 /* Pets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
