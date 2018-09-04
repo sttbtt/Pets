@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		F1732A8F213EF7A600EB8CF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1732A8E213EF7A600EB8CF8 /* AppDelegate.swift */; };
-		F1732A91213EF7A600EB8CF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1732A90213EF7A600EB8CF8 /* ViewController.swift */; };
 		F1732A94213EF7A600EB8CF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1732A92213EF7A600EB8CF8 /* Main.storyboard */; };
 		F1732A96213EF7A700EB8CF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1732A95213EF7A700EB8CF8 /* Assets.xcassets */; };
 		F1732A99213EF7A700EB8CF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1732A97213EF7A700EB8CF8 /* LaunchScreen.storyboard */; };
+		F1732AA5213EFA4800EB8CF8 /* PetsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1732AA4213EFA4800EB8CF8 /* PetsTableViewController.swift */; };
+		F1732AA7213EFA6600EB8CF8 /* Pets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1732AA6213EFA6600EB8CF8 /* Pets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F1732A8B213EF7A600EB8CF8 /* Pets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1732A8E213EF7A600EB8CF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F1732A90213EF7A600EB8CF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F1732A93213EF7A600EB8CF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1732A95213EF7A700EB8CF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1732A98213EF7A700EB8CF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1732A9A213EF7A700EB8CF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1732AA4213EFA4800EB8CF8 /* PetsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsTableViewController.swift; sourceTree = "<group>"; };
+		F1732AA6213EFA6600EB8CF8 /* Pets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +86,7 @@
 		F1732AA2213EF7E600EB8CF8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				F1732A90213EF7A600EB8CF8 /* ViewController.swift */,
+				F1732AA4213EFA4800EB8CF8 /* PetsTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -92,6 +94,7 @@
 		F1732AA3213EF7F400EB8CF8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F1732AA6213EFA6600EB8CF8 /* Pets.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -167,8 +170,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1732A91213EF7A600EB8CF8 /* ViewController.swift in Sources */,
 				F1732A8F213EF7A600EB8CF8 /* AppDelegate.swift in Sources */,
+				F1732AA5213EFA4800EB8CF8 /* PetsTableViewController.swift in Sources */,
+				F1732AA7213EFA6600EB8CF8 /* Pets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +318,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5KBWP959TD;
-				INFOPLIST_FILE = Pets/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Pets/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +336,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5KBWP959TD;
-				INFOPLIST_FILE = Pets/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Pets/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
